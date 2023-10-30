@@ -1,0 +1,33 @@
+{
+  "name": "niconama",
+  "version": "0.1.0",
+  "description": "NicoNico Live Recorder",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "type": "module",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinosaki/niconama.git"
+  },
+  "keywords": [
+    "niconico",
+    "nicolive"
+  ],
+  "author": "shinosaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shinosaki/niconama/issues"
+  },
+  "homepage": "https://github.com/shinosaki/niconama#readme"
+}
